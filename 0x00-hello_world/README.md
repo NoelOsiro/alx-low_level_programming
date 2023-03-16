@@ -1,4 +1,4 @@
-# C - Hello, World
+# C -0x0 Hello, World
 
 ### Learning Objectives
 1. Why C programming is awesome
