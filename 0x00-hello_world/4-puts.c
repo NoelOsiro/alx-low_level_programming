@@ -1,6 +1,6 @@
 /*
  * File: 4-puts.c
- * Auth: Noel Osiro 
+ * Auth: Noel Osiro
  */
 #include <stdio.h>
 /**
