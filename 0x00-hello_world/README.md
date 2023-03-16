@@ -1,7 +1,17 @@
 # C - Hello, World
 
-In this project, I learned about compilation using `gcc`, entry
-points using `main`, and text-printing functions in C.
+### Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+#### General
+1. Why C programming is awesome
+2. What happens when you type gcc main.c
+3. What is an entry point
+4. How to print text using printf, puts and putchar
+5. How to get the size of a specific type using the unary operator sizeof
+6. How to compile using gcc
+7. What is the official C coding style and how to check your code with betty-style
+8. How does the main function influence the return value of the program
 
 ## Tasks :page_with_curl:
 
