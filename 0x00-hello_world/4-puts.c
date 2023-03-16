@@ -1,12 +1,13 @@
 /*
  * File: 4-puts.c
+ * Auth: Noel Osiro 
  */
 
 #include <stdio.h>
 
 /**
- * Prints a string, followed by a new line.
- * Return:0.
+ * main - Prints string, followed by a new line.
+ * Return: 0.
  */
 int main(void)
 {
