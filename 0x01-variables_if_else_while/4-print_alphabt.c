@@ -1,5 +1,6 @@
 /* File:4-print_alphabt.c */
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - Prints the alphabet lowercase without char q and e.
@@ -8,16 +9,15 @@
  */
 int main(void)
 {
-	char letters[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char letters;
 
-	for (i = 0; i < 26; i++)
+	for(ch='a'; ch<='z'; letters++)
 	{
-    if (letters[i] != 'q' || letters[i] != 'e')
-	    {
-	        putchar(letters[i]);
-	    }
-	}
+        if (letters != 'e' && letters != 'q' )
+        {
+           printf("%c", letters); 
+        }
+    }
 	putchar('\n');
 	return (0);
 }
