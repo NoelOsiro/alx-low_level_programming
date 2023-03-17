@@ -22,7 +22,6 @@ int main(void)
 
 				if (no1 == 7 && no2 == 8 && no3 == 9)
 					continue;
-				
 				putchar(',');
 				putchar(' ');
 			}
