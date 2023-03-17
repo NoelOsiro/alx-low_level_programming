@@ -3,12 +3,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
- * main-print whether the number
- * stored in the variable positive or negative.
- * Return : 0
+/**
+ * main - Print whether the number stored in the variable positive or negative.
+ *
+ * Return: 0
  */
-
 int main(void)
 {
 	int n;
