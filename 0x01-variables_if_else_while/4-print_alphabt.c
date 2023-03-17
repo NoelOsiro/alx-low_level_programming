@@ -11,7 +11,7 @@ int main(void)
 {
 	char letters;
 
-	for(ch='a'; ch<='z'; letters++)
+	for(letters='a'; letters<='z'; letters++)
 	{
         if (letters != 'e' && letters != 'q' )
         {
