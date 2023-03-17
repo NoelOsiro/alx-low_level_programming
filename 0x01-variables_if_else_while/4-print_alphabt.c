@@ -15,7 +15,7 @@ int main(void)
 	{
         if (letters != 'e' && letters != 'q' )
         {
-           printf("%c", letters); 
+           	printf("%c", letters); 
         }
     }
 	putchar('\n');
