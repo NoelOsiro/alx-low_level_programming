@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-    if (letters[i] != "q" || letters[i] != "e")
+    if (letters[i] != 'q' || letters[i] != 'e')
 	    {
 	        putchar(letters[i]);
 	    }
