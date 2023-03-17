@@ -4,7 +4,7 @@
 /**
  * main - Prints numbers from 0 to 9.
  *
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
