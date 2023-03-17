@@ -11,12 +11,12 @@ int main(void)
 {
 	char letters;
 
-	for(letters='a'; letters<='z'; letters++)
+	for (letters = 'a'; letters <= 'z'; letters++)
 	{
-        if (letters != 'e' && letters != 'q' )
-        {
-           	printf("%c", letters); 
-        }
+		if (letters != 'e' && letters != 'q' )
+		{
+			printf("%c", letters);
+		}
     	}
 	putchar('\n');
 	return (0);
