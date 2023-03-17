@@ -4,7 +4,7 @@
 /**
  * main - Prints single digit numbers only Base 10.
  *
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
