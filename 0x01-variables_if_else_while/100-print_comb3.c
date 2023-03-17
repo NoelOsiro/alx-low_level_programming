@@ -19,7 +19,6 @@ int main(void)
 
 			if (no1 == 8 && no2 == 9)
 				continue;
-			
 			putchar(',');
 			putchar(' ');
 		}
