@@ -10,9 +10,10 @@
  */
 void print_alphabet(void)
 {
-    char letters[26] = "abcdefghijklmnopqrstuvwxyz";
+    int i;
 
-	printf("%s",letters);
-    printf("\n");
-
+    for(i = 97; i <= 122; i++)
+    {
+        printf("%c\n", i);
+    }
 }
