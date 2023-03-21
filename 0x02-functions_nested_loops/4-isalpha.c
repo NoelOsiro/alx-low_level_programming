@@ -5,7 +5,7 @@
 #include "main.h"
 /**
  * _isalpha - Checks if a character is alphabetic.
- * 
+ * @c: The character to be checked.
  * Return: 1 if character is lowercase, 0 otherwise.
  *          The standard library provides a similar function: isalpha
  */
