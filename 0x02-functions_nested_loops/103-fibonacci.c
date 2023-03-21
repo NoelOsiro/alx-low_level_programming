@@ -10,7 +10,7 @@ int main(void)
 {
 	long int nextTerm, afn;
 	int t1 = 0, t2 = 1;
-    
+
 	nextTerm = afn = 0;
 	while (nextTerm <= 4000000)
 	{
