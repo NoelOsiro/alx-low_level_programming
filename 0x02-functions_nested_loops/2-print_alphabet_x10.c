@@ -12,9 +12,7 @@ void print_alphabet_x10(void)
 	int i;
 
 	while (count++ <= 9)
-	{
-		 int i;
-    
+	{    
     	for (i = 97; i <= 122; i++)
     	{
         	printf("%c", i);
