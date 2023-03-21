@@ -12,7 +12,7 @@
 
 int main(void)
 {
-    int i, n;
+    int i;
 
     
     int t1 = 0, t2 = 1;
