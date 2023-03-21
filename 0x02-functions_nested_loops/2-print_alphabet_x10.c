@@ -8,13 +8,17 @@
  */
 void print_alphabet_x10(void)
 {
-	int count,j = 0;
-	char letters[26] = "abcdefghijklmnopqrstuvwxyz";
+	int count  = 0;
+	int i;
 
 	while (count++ <= 9)
 	{
-		for (j = 0; j <= 25; j++)
-			_putchar(letters[j]);
+		 int i;
+    
+    	for (i = 97; i <= 122; i++)
+    	{
+        	printf("%c", i);
+    	}
 		_putchar('\n');
 	}
 }
