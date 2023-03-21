@@ -2,7 +2,7 @@
  * File: 0-putchar.c
  */
 
-#include<stdio.h> 
+#include<stdio.h>
 #include "main.h"
 /**
  * main - Prints "_putchar" followed by a new line.
@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	printf("_putchar");
+	printf("_putchar\n");
 
 	return (0);
 }
