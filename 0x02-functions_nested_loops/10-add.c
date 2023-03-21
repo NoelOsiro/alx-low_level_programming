@@ -4,7 +4,7 @@
 
 #include "main.h"
 /**
- * _abs - adds two integers and returns the result.
+ * add - adds two integers and returns the result.
  * @n1: The first integer to be added.
  * @n2: The second integer to be added
  * Return: The sum of the integers.

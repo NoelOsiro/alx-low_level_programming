@@ -8,7 +8,7 @@
  * @n: The number to begin counting at.
  */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
     int i;
 
