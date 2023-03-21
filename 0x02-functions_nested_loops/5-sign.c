@@ -2,7 +2,7 @@
  * File: 5-sign.c
  */
 
-#include<stdio.h> 
+#include "main.h" 
 /**
  * print_sign - Prints the sign of a number.
  * Return: 1 if the number is greater than zero,

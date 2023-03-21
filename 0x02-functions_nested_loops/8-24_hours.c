@@ -1,7 +1,7 @@
 /*
  * File: 8-24_hours.c
  */
-#include<stdio.h> 
+#include "main.h"
 
 /**
  * jack_bauer - Prints every minute

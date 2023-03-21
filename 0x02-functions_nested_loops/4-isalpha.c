@@ -2,7 +2,7 @@
  * File: 4-isalpha.c
  */
 
-#include<stdio.h> 
+#include "main.h"
 /**
  * _isalpha - Checks if a character is alphabetic.
  * 

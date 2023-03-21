@@ -2,7 +2,7 @@
  * File: 3-islower.c
  */
 
-#include<stdio.h> 
+#include "main.h"
 /**
  * _islower - Checks if a character is lowercase.
  * *

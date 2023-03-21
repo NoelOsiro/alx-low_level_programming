@@ -2,7 +2,7 @@
  * File: 6-abs.c
  */
 
-#include<stdio.h> 
+#include "main.h"
 /**
  * _abs - Computes the absolute value of an integer.
  * Return: The absolute value of the integer.
