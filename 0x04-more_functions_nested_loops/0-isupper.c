@@ -1,6 +1,6 @@
 /*
  * File: 0-isupper.c
- 8 The standard library provides a similar function: isupper.
+ * The standard library provides a similar function: isupper.
  */
 
 #include "main.h"
