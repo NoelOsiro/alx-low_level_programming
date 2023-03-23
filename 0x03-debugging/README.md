@@ -4,7 +4,7 @@ Debugging is the process of finding and fixing errors in software that prevents 
 
 ## Header File :file_folder:
 
-* [main.h](./holberton.h): Header file containing prototypes for all functions written in the project.
+* [main.h](./main.h): Header file containing prototypes for all functions written in the project.
 
 | File                     | Prototype                        |
 | ------------------------ | -------------------------------- |
