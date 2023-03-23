@@ -1,9 +1,6 @@
-/**
- * File: 1-main.c
- */
 #include <stdio.h>
 /**
- * main - Test function for positive or negative
+ * main -Cause infinite loop
  *
  * Return: 0
  */
