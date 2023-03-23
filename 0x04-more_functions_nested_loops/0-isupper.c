@@ -1,8 +1,3 @@
-/*
- * File: 0-isupper.c
- * The standard library provides a similar function: isupper.
- */
-
 #include "main.h"
 
 /**
