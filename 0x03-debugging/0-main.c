@@ -1,6 +1,3 @@
-/**
- * File: 0-main.c
- */
 #include "main.h"
 
 /**
