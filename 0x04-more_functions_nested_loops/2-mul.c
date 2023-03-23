@@ -1,6 +1,6 @@
 /*
  * File: 2-mul.c
- * 
+ *
  */
 
 #include "main.h"
