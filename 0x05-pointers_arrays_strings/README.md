@@ -23,7 +23,7 @@ functions written in the project.
 | `3-puts.c`           | `void _puts(char *str);`                                       |
 | `4-print_rev.c`      | `void print_rev(char *s);;`                                        |
 | `5-rev_string.c`     | `void rev_string(char *s);`                                    |
-| `7-leet.c`           | `void puts2(char *str);`                                       |
+| `7-puts_half.c`           | `void puts2(char *str);`                                       |
 | `8-rot13.c`          | `void puts_half(char *str);`                                   |
 | `100-print_number.c` | `void print_array(int *a, int n);`                             |
 | `102-infinite_add.c` | `char *_strcpy(char *dest, char *src);`                        |
@@ -43,31 +43,29 @@ functions written in the project.
     * FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
 * **3.  I do not fear computers. I fear the lack of them**
-  * [3-strcmp.c](./3-strcmp.c): C function that prints a string, followed by a new line, to stdout.
+  * [3-puts.c](./3-puts.c): C function that prints a string, followed by a new line, to stdout.
     * Works identically to the standard library function `puts`.
 
 * **4. I can only go one way. I've not got a reverse gear**
-  * [4-rev_array.c](./4-rev_array.c): C function that prints a string, in reverse, followed by a new line..
+  * [4-print_rev.c](./4-print_rev.c): C function that prints a string, in reverse, followed by a new line..
 
 * **5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes**
-  * [5-string_toupper.c](./5-string_toupper.c): C function that changes all lowercase
-  letters of a string to uppercase.
+  * [5-rev_string.c](./5-rev_string.c): C function that reverses a string.
 
 * **6. Half the lies they tell about me aren't true**
-  * [6-cap_string.c](./6-cap_string.c): C function that capitalizes all words of a string.
+  * [6-puts2.c](./6-puts2.c): C function that prints every other character of a string, starting with the first character, followed by a new line..
 
 * **7. Winning is only half of it. Having fun is the other half**
-  * [7-leet.c](./7-leet.c): C function that encodes a string into 1337, without
-  `switch` or ternary operations and using only one `if` and two loops.
-    * Letters `a` and `A` are replaced by `4`.
-    * Leters `e` and `E` are replaced by `3`.
-    * Letters `o` and `O` are replaced by `0`.
-    * Letters `t` and `T` are replaced by `7`.
-    * Letters `l` and `L` are replaced by `1`.
-
+  * [7-puts_half.c](./7-puts_half.c): C function that prints half of a string, followed by a new line.
+    * The function should print the second half of the string.
+    * If the number of characters is odd, the function should print the last `n` characters of the string, where `n = (length_of_the_string - 1) / 2`
+    
 * **8. Arrays are not pointers**
-  * [8-rot13.c](./8-rot13.c): C function that encodes a string to rot13, without
-  `switch` or ternary operations and using only one `if` and two loops.
+  * [8-print_array.c](./8-rot13.c): C function that prints n elements of an array of integers, followed by a new line.
+    * Where `n` is the number of elements of the array to be printed
+    * Numbers must be separated by comma, followed by a space
+    * The numbers should be displayed in the same order as they are stored in the array
+    * You are allowed to use printf
 
 * **9. strcpy**
   * [100-print_number.c](./100-print_number.c): C function that prints an integer
