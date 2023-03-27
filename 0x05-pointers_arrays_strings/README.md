@@ -68,27 +68,21 @@ functions written in the project.
     * You are allowed to use printf
 
 * **9. strcpy**
-  * [100-print_number.c](./100-print_number.c): C function that prints an integer
-  without using `long`, arrays, pointers, or hard-coded special values.
+  * [9-strcpy.c](./9-strcpy.c): C  function that copies the string pointed to by src, including the terminating null byte `(\0)`, to the buffer pointed to by `dest`.
+    * Return value: the pointer to dest
+    * FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
 
-* **10. A dream doesn't become reality through magic; it takes sweat, determination and hard work**
-  * [101-magic.c](./101-magic.c): C program that prints `a[2] = 98` using pointer magic.
-    * Completion of [this source code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c).
+* **10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers**
+  * [100-atoi.c](./100-atoi.c): C  function that convert a string to an integer.
+    * The number in the string can be preceded by an infinite number of characters
+    * You need to take into account all the - and + signs before the number
+    * If there are no numbers in the string, the function must return 0
+    * You are not allowed to use long
+    * You are not allowed to declare new variables of “type” array
+    * You are not allowed to hard-code special values
+    * FYI: The standard library provides a similar function: atoi. Run man atoi to learn more.
 
-* **11. It is the addition of strangeness to beauty that constitutes the romantic character in art**
-  * [102-infinite_add.c](./102-infinite_add.c): C function that adds two numbers stored
-  in strings to a buffer.
-    * Assumes that strings are never empty and that numbers will always be positive, or 0.
-    * Assumes there are only digits stored in the number strings.
-    * If result can be stored in the buffer, returns a pointer to the result.
-    * If result cannot be stored in the buffer, returns `0`.
-
-* **12. Noise is a buffer, more effective than cubicles or booth walls**
-  * [103-print_buffer.c](./103-print_buffer.c): C function that prints the content of an
-  inputted number of bytes from a buffer.
-    * Prints 10 bytes per line.
-    * Starts with the position of the first byte in hexadecimal (8 chars), starting with `0`.
-    * Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space.
-    * Each line shows the content of the buffer. Prints the byte if it is printable; if not, prints `.`.
-    * Each line ends with a new line `\n`.
-    * If the inputted byte size is 0 or less, the function only prints a new line.
+* **11. Don't hate the hacker, hate the code**
+  * [101-keygen.c](./101-keygen.c): Create a program that generates random valid passwords for the program 101-crackme.
+    * man srand, rand, time
+    * gdb and objdump can help
