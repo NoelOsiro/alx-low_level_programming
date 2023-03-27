@@ -20,9 +20,9 @@ functions written in the project.
 | `0-reset_to_98.c`    | `void reset_to_98(int *n);`                                    |
 | `1-swap.c`           | `swap_int(int *a, int *b);`                                    |
 | `2-strlen.c`         | `_strlen(char *s);`                                            |
-| `4-rev_array.c`      | `void _puts(char *str);`                                       |
-| `5-string_toupper.c` | `int _putchar(char c);`                                        |
-| `6-cap_string.c`     | `void rev_string(char *s);`                                    |
+| `3-puts.c`           | `void _puts(char *str);`                                       |
+| `4-print_rev.c`      | `void print_rev(char *s);;`                                        |
+| `5-rev_string.c`     | `void rev_string(char *s);`                                    |
 | `7-leet.c`           | `void puts2(char *str);`                                       |
 | `8-rot13.c`          | `void puts_half(char *str);`                                   |
 | `100-print_number.c` | `void print_array(int *a, int n);`                             |
@@ -43,13 +43,11 @@ functions written in the project.
     * FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
 * **3.  I do not fear computers. I fear the lack of them**
-  * [3-strcmp.c](./3-strcmp.c): C function that compares two strings.
-    * Returns the difference in bytes at point of difference.
-    * Works identically to the standard library function `strcmp`.
+  * [3-strcmp.c](./3-strcmp.c): C function that prints a string, followed by a new line, to stdout.
+    * Works identically to the standard library function `puts`.
 
 * **4. I can only go one way. I've not got a reverse gear**
-  * [4-rev_array.c](./4-rev_array.c): C function that reverses the content of an
-  array of integers.
+  * [4-rev_array.c](./4-rev_array.c): C function that prints a string, in reverse, followed by a new line..
 
 * **5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes**
   * [5-string_toupper.c](./5-string_toupper.c): C function that changes all lowercase
