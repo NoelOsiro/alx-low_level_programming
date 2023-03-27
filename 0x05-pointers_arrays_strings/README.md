@@ -17,55 +17,48 @@ functions written in the project.
 
 | File                 | Prototype                                                      |
 | -------------------- | -------------------------------------------------------------- |
-| `0-reset_to_98.c`    | `char *_strcat(char *dest, char *src);`                        |
-| `1-strncat.c`        | `char *_strncat(char *dest, char *src, int n);`                |
-| `2-strncpy.c`        | `char *_strncpy(char *dest, char *src, int n);`                |
-| `3-strcmp.c`         | `int _strcmp(char *s1, char *s2);`                             |
-| `4-rev_array.c`      | `void reverse_array(int *a, int n);`                           |
-| `5-string_toupper.c` | `char *string_toupper(char *);`                                |
-| `6-cap_string.c`     | `char *cap_string(char *);`                                    |
-| `7-leet.c`           | `char *leet(char *);`                                          |
-| `8-rot13.c`          | `char *rot13(char *);`                                         |
-| `100-print_number.c` | `void print_number(int n);`                                    |
-| `102-infinite_add.c` | `char *infinite_add(char *n1, char *n2, char *r, int size_r);` |
-| `103-print_buffer.c` | `void print_buffer(char *b, int size);`                        |
+| `0-reset_to_98.c`    | `void reset_to_98(int *n);`                                    |
+| `1-swap.c`           | `swap_int(int *a, int *b);`                                    |
+| `2-strlen.c`         | `_strlen(char *s);`                                            |
+| `4-rev_array.c`      | `void _puts(char *str);`                                       |
+| `5-string_toupper.c` | `int _putchar(char c);`                                        |
+| `6-cap_string.c`     | `void rev_string(char *s);`                                    |
+| `7-leet.c`           | `void puts2(char *str);`                                       |
+| `8-rot13.c`          | `void puts_half(char *str);`                                   |
+| `100-print_number.c` | `void print_array(int *a, int n);`                             |
+| `102-infinite_add.c` | `char *_strcpy(char *dest, char *src);`                        |
+| `103-print_buffer.c` | `int _atoi(char *s)`                                           |
 
 ## Tasks :page_with_curl:
 
 * **0. 98 Battery st.**
-  * [0-reset_to_98.c](./0-reset_to_98.c): C function that concatenates two strings.
-    * Adds a terminating null byte at end.
+  * [0-reset_to_98.c](./0-reset_to_98.c): C  function that takes a pointer to an int as parameter.
+    * Updates the value it points to to 98.
 
-* **1. strncat**
-  * [1-strncat.c](./1-strncat.c): C function that concatenates two strings using at most
-  an inputted number of bytes.
-    * Adds a terminating null byte at end, unless source string is longer than maximum byte
-    number.
+* **1. Don't swap horses in crossing a stream**
+  * [1-swap.c](./1-swap.c): C function that  a function that swaps the values of two integers.  
 
-* **2. strncpy**
-  * [2-strncpy.c](./2-strncpy.c): C function that copies a string, including the
-  terminating null byte, using at most an inputted number of bytes.
-    * If the length of the source string is less than the maximum byte number,
-    the remainder of the destination string is filled with null bytes.
-    * Works identically to the standard library function `strncpy`.
+* **2. This report, by its very length, defends itself against the risk of being ready**
+  * [2-strlen.c](./2-strlen.c): C function Write a function that returns the length of a string.
+    * FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
-* **3. strcmp**
+* **3.  I do not fear computers. I fear the lack of them**
   * [3-strcmp.c](./3-strcmp.c): C function that compares two strings.
     * Returns the difference in bytes at point of difference.
     * Works identically to the standard library function `strcmp`.
 
-* **4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy**
+* **4. I can only go one way. I've not got a reverse gear**
   * [4-rev_array.c](./4-rev_array.c): C function that reverses the content of an
   array of integers.
 
-* **5. Always look up**
+* **5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes**
   * [5-string_toupper.c](./5-string_toupper.c): C function that changes all lowercase
   letters of a string to uppercase.
 
-* **6. Expect the best. Prepare for the worst. Capitalize on what comes**
+* **6. Half the lies they tell about me aren't true**
   * [6-cap_string.c](./6-cap_string.c): C function that capitalizes all words of a string.
 
-* **7. Mozart composed his music not for the elite, but for everybody**
+* **7. Winning is only half of it. Having fun is the other half**
   * [7-leet.c](./7-leet.c): C function that encodes a string into 1337, without
   `switch` or ternary operations and using only one `if` and two loops.
     * Letters `a` and `A` are replaced by `4`.
@@ -74,11 +67,11 @@ functions written in the project.
     * Letters `t` and `T` are replaced by `7`.
     * Letters `l` and `L` are replaced by `1`.
 
-* **8. rot13**
+* **8. Arrays are not pointers**
   * [8-rot13.c](./8-rot13.c): C function that encodes a string to rot13, without
   `switch` or ternary operations and using only one `if` and two loops.
 
-* **9. Numbers have life; they're not just symbols on paper**
+* **9. strcpy**
   * [100-print_number.c](./100-print_number.c): C function that prints an integer
   without using `long`, arrays, pointers, or hard-coded special values.
 
