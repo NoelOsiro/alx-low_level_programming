@@ -17,10 +17,10 @@ functions written in the project.
 | `5-string_toupper.c` | `char *string_toupper(char *);`                                |
 | `6-cap_string.c`     | `char *cap_string(char *);`                                    |
 | `7-leet.c`           | `char *leet(char *);`                                          |
-| `8-rot13.c`          | `char *rot13(char *);`                                         |
-| `100-print_number.c` | `void print_number(int n);`                                    |
-| `102-infinite_add.c` | `char *infinite_add(char *n1, char *n2, char *r, int size_r);` |
-| `103-print_buffer.c` | `void print_buffer(char *b, int size);`                        |
+| `100-rot13.c`          | `char *rot13(char *);`                                         |
+| `101-print_number.c` | `void print_number(int n);`                                    |
+| `103-infinite_add.c` | `char *infinite_add(char *n1, char *n2, char *r, int size_r);` |
+| `104-print_buffer.c` | `void print_buffer(char *b, int size);`                        |
 
 ## Tasks :page_with_curl:
 
@@ -74,10 +74,6 @@ functions written in the project.
   * [100-print_number.c](./100-print_number.c): C function that prints an integer
   without using `long`, arrays, pointers, or hard-coded special values.
 
-* **10. A dream doesn't become reality through magic; it takes sweat, determination and hard work**
-  * [101-magic.c](./101-magic.c): C program that prints `a[2] = 98` using pointer magic.
-    * Completion of [this source code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c).
-
 * **11. It is the addition of strangeness to beauty that constitutes the romantic character in art**
   * [102-infinite_add.c](./102-infinite_add.c): C function that adds two numbers stored
   in strings to a buffer.
@@ -87,7 +83,7 @@ functions written in the project.
     * If result cannot be stored in the buffer, returns `0`.
 
 * **12. Noise is a buffer, more effective than cubicles or booth walls**
-  * [103-print_buffer.c](./103-print_buffer.c): C function that prints the content of an
+  * [104-print_buffer.c](./104-print_buffer.c): C function that prints the content of an
   inputted number of bytes from a buffer.
     * Prints 10 bytes per line.
     * Starts with the position of the first byte in hexadecimal (8 chars), starting with `0`.
