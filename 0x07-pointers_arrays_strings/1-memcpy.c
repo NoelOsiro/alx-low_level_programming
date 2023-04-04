@@ -7,16 +7,12 @@
 *     Return: pointer to dest
 */
 
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 
-if (n > 0)
-{
-int index;
+	for (unsigned int index = 0; index < n; index++)
+		dest[index] = src[index];
 
-for (index = 0; index < n; index++)
-dest[index] = src[index];
-}
-return (dest);
-
+	return (dest);
 }
