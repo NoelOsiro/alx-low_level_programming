@@ -10,7 +10,8 @@
  * Return: If n has a natural square root - the natural square root of n.
  *         If n does not have a natural square root - -1.
  */
-int _sqrt_helper(int n, int low, int high) {
+int _sqrt_helper(int n, int low, int high)
+{
     if (low > high)
     {
         return -1;  /* error: n does not have a natural square root */
@@ -23,7 +24,8 @@ int _sqrt_helper(int n, int low, int high) {
     } else if (mid_sq < n)
     {
         return _sqrt_helper(n, mid + 1, high);
-    } else
+    }
+    else
     {
         return _sqrt_helper(n, low, mid - 1);
     }
@@ -36,7 +38,8 @@ int _sqrt_helper(int n, int low, int high) {
  * Return: If n has a natural square root - the natural square root of n.
  *         If n does not have a natural square root - -1.
  */
-int _sqrt_recursion(int n) {
+int _sqrt_recursion(int n)
+{
     if (n < 0)
     {
         return -1;  
@@ -45,7 +48,8 @@ int _sqrt_recursion(int n) {
     {
         return n;   
     }
-    else {
+    else
+    {
         return _sqrt_helper(n, 1, n / 2);
     }
 }
