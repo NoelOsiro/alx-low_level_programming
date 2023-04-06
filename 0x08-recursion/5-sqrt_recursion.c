@@ -21,8 +21,11 @@ if (low > high)
 /* The square root does not exist */
 return (1);
 }
-int mid = (low + high) / 2;
-int square = mid * mid;
+int mid;
+
+mid = (low + high) / 2;
+int square = (mid *mid);
+
 if (square == n)
 {
 /* Found the square root */
