@@ -1,8 +1,3 @@
-/*
- * File: 100-change.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
