@@ -15,8 +15,8 @@ in the project.
 | `2-str_concat.c`   | `char *str_concat(char *s1, char *s2);`          |
 | `3-alloc_grid.c`   | `int **alloc_grid(int width, int height);`       |
 | `4-free_grid.c`    | `void free_grid(int **grid, int height);`        |
-| `5-argstostr.c`    | `char *argstostr(int ac, char **av);`            |
-| `100-strtow.c`     | `char **strtow(char *str);`                      |
+| `100-argstostr.c`    | `char *argstostr(int ac, char **av);`            |
+| `101-strtow.c`     | `char **strtow(char *str);`                      |
 
 ## Tasks :page_with_curl:
 
@@ -55,7 +55,7 @@ in the project.
     * The program does not crash upon receiving invalid two-dimensional arrays.
 
 * **5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe**
-  * [5-argstostr.c](./5-argstostr.c): C function that returns a pointer to a
+  * [101-argstostr.c](./101-argstostr.c): C function that returns a pointer to a
   newly-allocated space in memory containing the concatenation of all the arguments of the
   program.
     * Each argument is followed by a `\n` in the new string.
