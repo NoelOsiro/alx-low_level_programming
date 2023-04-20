@@ -1,13 +1,6 @@
 #ifndef CALC_H
 #define CALC_H
 
-/*
- * File: 3-calc.h
- * Auth: Brennan D Baraban
- * Desc: Header file containing all structures and
- *       prototypes used by the 3-main.c program.
- */
-
 /**
  * struct op - A struct op.
  * @op: The operator.
