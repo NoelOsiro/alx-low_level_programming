@@ -1,8 +1,3 @@
-/*
- * File: 3-get_op_func.c
- * Auth: Brennan D Baraban
- */
-
 #include "3-calc.h"
 #include <stdlib.h>
 
