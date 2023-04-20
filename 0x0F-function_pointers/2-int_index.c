@@ -1,8 +1,3 @@
-/*
- * File: 2-int_index.c
- * Auth: Brennan D Baraban
- */
-
 #include "function_pointers.h"
 
 /**
