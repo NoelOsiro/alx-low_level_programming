@@ -37,6 +37,20 @@ int _printf(const char *format, ...) {
                     num_chars_printed += len;
                     break;
                 }
+                case 'b': {
+                    unsigned int num = va_arg(args, unsigned int);
+                    char buf[32];
+                    int i = 0;
+                    do {
+                        buf[i++] = (num % 2) + '0';
+                        num /= 2;
+                    } while (num != 0);
+                    for (int j = i - 1; j >= 0; j--) {
+                        write(1, &buf[j], 1); // write binary digits to stdout
+                        num_chars_printed++;
+                    }
+                    break;
+                }
                 case '%': {
                     char c = '%';
                     write(1, &c, 1); // write percent sign to stdout
