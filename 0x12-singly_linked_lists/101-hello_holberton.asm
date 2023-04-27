@@ -1,20 +1,22 @@
-section .data
-    hello db "Hello, Holberton",0x0a,0
-    format db "%s"
+extern printf
 
 section .text
-    global main
-    extern printf
+   global main
 
 main:
-    ; Push the format string onto the stack
-    push format
-    ; Push the address of the hello string onto the stack
-    push hello
-    ; Call printf
-    call printf
-    ; Clean up the stack (remove the arguments)
-    add rsp, 16
-    ; Return 0
-    mov eax, 0
-    ret
+   push rbp
+
+   mov rdi,fmt
+   mov rsi,msg
+   mov rax,0
+   call printf
+
+   pop rbp
+
+   mov rax,0
+   ret
+
+section .data
+   msg: db "Hello, Holberton", 0
+   fmt: db "%s", 10, 0
+   
