@@ -1,42 +1,45 @@
 #include "lists.h"
-#include <stdlib.h>
 
 /**
- * insert_nodeint_at_index -  inserts a new node at a given position.
- * @head: double pointer to the first node in the list
- * @idx: index of the node to insert
- * @n: value for new node
+ * insert_nodeint_at_index - Inserts a new node to a listint_t
+ *                           list at a given position.
+ * @head: A pointer to the address of the
+ *        head of the listint_t list.
+ * @idx: The index of the listint_t list where the new
+ *       node should be added - indices start at 0.
+ * @n: The integer for the new node to contain.
  *
- * Return: pointer to the indexed node
+ * Return: If the function fails - NULL.
+ *         Otherwise - the address of the new node.
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
-	unsigned int i;
-	listint_t *current, *new;
+	listint_t *new, *copy = *head;
+	unsigned int node;
 
-	if (head == NULL)
-		return (NULL);
-	if (idx != 0)
-	{
-		current = *head;
-		for (i = 0; i < idx - 1 && current != NULL; i++)
-		{
-			current = current->next;
-		}
-		if (current == NULL)
-			return (NULL);
-	}
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
 		return (NULL);
+
 	new->n = n;
+
 	if (idx == 0)
 	{
-		new->next = *head;
+		new->next = copy;
 		*head = new;
 		return (new);
 	}
-	new->next = current->next;
-	current->next = new;
+
+	for (node = 0; node < (idx - 1); node++)
+	{
+		if (copy == NULL || copy->next == NULL)
+			return (NULL);
+
+		copy = copy->next;
+	}
+
+	new->next = copy->next;
+	copy->next = new;
+
 	return (new);
 }
