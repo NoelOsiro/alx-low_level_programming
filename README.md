@@ -24,6 +24,10 @@ working in the C language. The specific list of projects contained follows:
 * [0x0F. C - Function pointers](./0x0F-function_pointers)
 * [0x12. C - Singly linked lists](./0x12-singly_linked_lists)
 * [0x13. C - More singly linked lists](./0x13-more_singly_linked_lists)
+* [0x14. C - Bit Manipulation](./0x14-bit_manipulation)
+* [0x15. C - File I/O](./0x15-file_io)
+* [0x17. C - Double Linked Lists](./0x15-file_io)
+* [0x18. C - Dynamic Libraries](./0x18-dynamic_libraries)
 
 ## Author :black_nib:
 
